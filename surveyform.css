@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+body {
+   background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#title {
+  text-align: center;
+  color: rgb(128, 0, 0);
+}
+#description {
+  text-align: center;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px (0, 0, 0, 0.4);
+}
+#set {
+  background-color: #578bb5;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#dropdown, 
+#fav,
+#name,
+#email,
+#comment,
+#number {
+  width: 97%;
+  border-radius: 5px;
+} 
+#submit{
+  width: 97%;
+  background: green;
+  cursor: pointer;
+}
